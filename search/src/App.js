@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <div className='heading-row'>
-        <h1>GGWP Posts {query}</h1>
+        <h1>GGWP Posts</h1>
         <div className='input-wrapper'>
           <input type="text" name="search" placeholder="Search Post..." onChange={optimizedHandleChange}/>
         </div>
